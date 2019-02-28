@@ -11,4 +11,21 @@ def initialize(name, artist, genre)
   @@artists << artist 
   @@genres << genres 
 end 
+
+def self.count 
+  @@count 
+end 
+
+def self.artists
+  @@artists
+end 
+
+def self.genres
+  @@genres
+end 
+
+def self.genre_count 
+  @@genres.each do |genre|
+    
+end 
 end 
